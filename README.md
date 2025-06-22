@@ -1,12 +1,33 @@
-# React + Vite
+# 🗒️ NoteVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**NoteVault** is a cloud-based note-taking web application built with React and Firebase. It allows users to create, edit, and organize notes securely from any device, with real-time sync and a clean, responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Secure authentication with Firebase (Google login)
+- 📝 Create, edit, and delete notes in real time
+- 🌐 Cloud sync with Firestore (notes stored per user)
+- 📱 Mobile-first, responsive design using TailwindCSS
+- 🌙 Dark mode toggle for user preference
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **TailwindCSS**
+- **Firebase (Auth + Firestore)**
+- **React Router**
+- **Git & GitHub**
+
+---
+
+## 📂 Installation
+
+```bash
+git clone https://github.com/Johnson-ai/NoteVault.git
+cd NoteVault
+npm install
+npm start
