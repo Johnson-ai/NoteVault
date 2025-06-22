@@ -1,0 +1,56 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-btn {
+    background-color: #e63946;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .note-form {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .note-form textarea {
+    min-height: 100px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .note-form button {
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .notes-list {
+    margin-top: 2rem;
+  }
+  
+  .note-item {
+    background: #f1faee;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border-left: 4px solid #1d3557;
+  }
+  

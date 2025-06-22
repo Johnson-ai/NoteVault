@@ -1,0 +1,40 @@
+.dashboard {
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .note-form {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-form input,
+  .note-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .note-form button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .note-list {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .note-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+  
